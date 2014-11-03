@@ -1,0 +1,10 @@
+Coolerjets!
+
+The basic idea is to make cross-site flagging extension which allows users to
+block or flag accounts on various sites, and to indicate to users which accounts
+other users have flagged frequency.
+
+In order to make this, we'll need 3 parts:
+1) an extension which finds usernames for (certain) site and can inject css
+2) a databse which stores information about which user reported which accounts on which sites
+3) a python API to handle requests from the extension to the DB
